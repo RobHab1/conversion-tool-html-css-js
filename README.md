@@ -14,10 +14,8 @@ Projektet kan omvandla:
 
 -Bilder från sidan 
 
-<img width="758" height="924" alt="Skärmavbild 2025-08-14 kl  15 25 41" src="https://github.com/user-attachments/assets/3c25c36e-3cb3-421a-906f-5bfb6da14a20" />
-
-
-<img width="755" height="1016" alt="Skärmavbild 2025-08-14 kl  15 25 31" src="https://github.com/user-attachments/assets/b63ad7e7-a7f4-45e7-8c7c-8d54bb7f64bf" />
+<img width="381" height="506" alt="Skärmavbild 2025-08-14 kl  15 30 25" src="https://github.com/user-attachments/assets/d2081ebd-2ea9-4d48-b9d4-b037fbe6e31e" />
+<img width="375" height="459" alt="Skärmavbild 2025-08-14 kl  15 31 02" src="https://github.com/user-attachments/assets/ea3f35d0-9d42-47c3-b173-662bad589fbe" />
 
 
 
