@@ -1,0 +1,141 @@
+/* Grundstil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sidhuvud */
+  header {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #005f73;
+    color: white;
+  }
+  
+  /* Meny */
+  nav {
+    background-color: #0a9396;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav .topmenu {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  nav .topmenu:hover {
+    background-color: #94d2bd;
+  }
+  
+  /* Sektioner */
+  section.b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  figure {
+    text-align: center;
+    flex: 1 1 200px;
+  }
+  
+  figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  article {
+    flex: 1 1 300px;
+    padding: 10px;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #005f73;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #005f73;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0a9396;
+  }
+  
+  aside {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Hem-knapp */
+  .iconbutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .iconbutton img {
+    width: 50px;
+    height: 50px;
+    background-color: #0a9396;
+    border-radius: 50%;
+    padding: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .iconbutton img:hover {
+    background-color: #94d2bd;
+  }
+  
+  /* Sidfot */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #005f73;
+    color: white;
+    margin-top: 30px;
+  }
+  

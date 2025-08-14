@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+  </head>
+  <body>
+      <section id="home">
+        <header>
+          Enhetsomvandlingar
+        </header>
+        <nav>
+          <div class="topdiv">
+            <a href="#temperature"><button  class="topmenu">Temperatur</button></a>
+            <a href="#weight"><button  class="topmenu">Vikt</button></a>
+            <a href="#distance"><button  class="topmenu">Avstånd</button></a>
+          </div>
+        </nav>
+      </section>    
+      <div style="clear:both;"></div>
+     
+      <div id="all-conversion-sections">
+
+        <section id="temperature"  class="b temperature">
+          <div id="tmp">
+            <figure>
+              <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width="150px"/>
+              <figcaption>Celsius till Fahrenheit-omvandling</figcaption>
+            </figure>
+            <article>
+
+              <fieldset>
+                <legend>Temperatur</legend>
+                <label for="celsius">Celsius</label> <br/>
+
+ <input type="number" id="celsius"> <br/>
+
+                <button id="temperature" onclick="temperature()"> Omvandla </button> <br/>
+
+                <input type="number" id="fahrenheit"> <br/>
+
+ <label for="fahrenheit">Fahrenheit</label>
+              </fieldset>
+              <aside>
+                För att omvandla celsius till fahrenheit själv, använd denna formel och ersätt `C` med din temperatur i celsius: (C × 9/5) + 32
+              </aside>
+            </article>
+          </div>
+        </section>
+
+        <div style="clear:both;"></div>
+      
+        <section id="weight"  class="b weight">          
+          <div id="wgt">
+            <figure>
+              <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png"  width="150px"/>
+              <figcaption>Kilogram till Pound-omvandling</figcaption>
+            </figure>
+            <article>
+              <fieldset>
+                <legend>Vikt</legend>
+                <label for="kilo">KG</label> <br/>
+
+ <input type="number" id="kilo"> <br/>
+
+                <button id="weight" onclick="weight()"> Omvandla </button>  <br/>
+
+ 
+                <input type="number" id="pounds">  <br/>
+
+  <label for="pounds">Pounds</label>    
+              </fieldset>
+              <aside>
+                För att omvandla kilogram till pounds själv, använd denna formel och ersätt `kg` med din vikt i kilogram: kg x 2.205
+              </aside>      
+            </article>
+          </div>
+        </section>
+
+        <div style="clear:both;"></div>
+
+        <section id="distance"  class="b distance">
+          <div id="dst">
+            <figure>
+              <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png"  width="150px"/>
+              <figcaption>Kilometer till Miles-omvandling</figcaption>
+            </figure>
+            <article>
+              <fieldset>
+                <legend>Avstånd</legend>
+                  <label for="km">KM</label> <br/>
+
+ <input type="number" id="km">  <br/>
+
+                  <button id="distance" onclick="distance()"> Omvandla </button> <br/>
+
+                  <input type="number" id="miles">  <br/>
+
+  <label for="miles">Miles</label>
+              </fieldset>
+              <aside>
+                För att omvandla kilometer till miles själv, använd denna formel och ersätt `km` med ditt avstånd i kilometer: km × 0.62137
+              </aside>
+    
+            </article>
+          </div>
+        </section>
+        <div style="clear:both;"></div>
+
+      </div>
+
+    <div id="go-home" class="iconbutton">
+      <a href="#home">
+        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
+      </a>
+    </div>
+
+    <footer>Lär dig mer om HTML och CSS som en del av IBM Fullstack Cloud Developer Certification</footer>
+  </body>
+</html>
